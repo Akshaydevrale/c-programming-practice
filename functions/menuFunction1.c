@@ -56,3 +56,4 @@ void division(){
 	int c=a/b;
 	printf("Division of two numbers is: %d",c);
 }
+
