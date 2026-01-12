@@ -9,7 +9,7 @@ int division();
 
 int main(){
 	int choice;
-	printf("Enter your choice 1(+), 2(-), 3(*), 4(/) :");
+	printf("Enter your choice 1.Addition(+), 2.Subtraction(-), 3.Multiplication(*), 4.Division(/) :");
 	scanf("%d",&choice);
 	int res;
 	
@@ -61,4 +61,5 @@ int division(){
 	scanf("%d",&b);
 	return a/b;
 }
+
 
