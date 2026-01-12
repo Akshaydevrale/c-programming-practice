@@ -7,7 +7,7 @@ void multiplication();
 void division();
 void main(){
 	int choice;
-	printf("Enter your choice 1(+), 2(-), 3(*), 4(/) :");
+	printf("Enter your choice 1.Addition(+), 2.Subtraction(-), 3.Multiplication(*), 4.Division(/) :");
 	scanf("%d",&choice);
 	
 	if(choice==1){
@@ -56,4 +56,5 @@ void division(){
 	int c=a/b;
 	printf("Division of two numbers is: %d",c);
 }
+
 
