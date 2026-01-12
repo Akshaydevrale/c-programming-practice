@@ -34,3 +34,4 @@ void multiplication(int a,int b){
 void division(int a,int b){
 	printf("Division of two numbers is: %d",a/b);
 }
+
